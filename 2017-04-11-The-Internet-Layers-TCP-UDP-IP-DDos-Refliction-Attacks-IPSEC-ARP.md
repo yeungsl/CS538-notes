@@ -8,10 +8,7 @@ scribe: Sailung Yeung
 
 ## Lecture: Network Layers (TCP, UDP, IP, IPSEC, ARP)
 
-### IP Routing review
-
-- Notion of encapsulating each layer by layer is the fundational concept of networking
-
+### TCP & TLS
 ![alt tag](http://www.cisco.com/c/dam/en_us/about/ac123/ac147/downloads/customer/internetprotocoljournal/ipj_3-2/images/figure01.gif)
 
 
@@ -20,7 +17,7 @@ TCP/IP packet
 IP header --> IP layer
 TCP header --> TCP layer
 ```
-### TCP & TLS
+
 - Allow packet arrive in order. Every sent packet give a acknowledge. (done in TCP header)
 - TLS packet relatively ugly, because only TLS layer encrypted (with MAC). Not encrypting higher layers (IP layer and TCP layer).
 
